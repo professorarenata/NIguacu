@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HTML>
+ <HEAD> <TITLE> Cálculo IMC - Tabela </TITLE>
+   <meta charset=utf-8>
+   <link rel="stylesheet" type="text/css" href="CSS/style.css">
+   <script src="JS/Script.js">   </script>  
+ </HEAD>
+ <BODY background="fundo.jpg">
+  <div id="tudo">     
+   <div id="superior">
+     <HR id="linha1"/>
+     <p class="titulo">
+       Cálculo IMC
+     </p>
+	  <p class="texto">
+	   calculoimc.com.br
+       </p>
+     <HR id="linha2"/>
+   </div>
+   <div id="conteudo">
+   <Font size="5"> <b>
+     Calcular o meu IMC online <br>
+	</font> </b>
+	Digite o seu peso e a sua altura no formulário
+	abaixo para calcular o seu IMC <br> <br>
+	<Form name="form1">
+	 <input type="number" name="peso"> Kg &nbsp &nbsp
+	 <input type="number" name="altura"> m &nbsp &nbsp
+	 <input type="button" name="calcular" value="Calcular IMC" onClick="Calculo(form1)"><br>
+	 </form>
+   </div>
+   <center> <br><br>
+    <div id="tabela">
+     <Table border="0">
+	   <TR bgcolor="silver"><TD> <b>Resultado </TD> 
+	                        <TD> <B> Situação</TD></TR>
+       <TR><TD>Abaixo de 17</TD>
+	       <TD> Muito abaixo do peso </TD> </TR>
+       <TR><TD>Entre 17 e 18,49 </TD>
+	       <TD> Abaixo do peso </TD> </TR>
+	   <TR><TD>Entre 18,5 e 24,99</TD>
+	       <TD> Peso Normal </TD> </TR>
+	   <TR><TD>Entre 25 e 29,99</TD>
+	       <TD> Acima do peso </TD> </TR>  
+       <TR><TD>Entre 30 e 34,99</TD>
+	       <TD> Obesidade I </TD> </TR>	
+       <TR><TD>Entre 35 e 39,99</TD>
+	       <TD> Obesidade II (Severa)</TD> </TR>
+       <TR><TD>Acima de 40</TD>
+	       <TD> Obesidade III (Mórbida) </TD> </TR>		   
+	  </Table>        	   
+    </div>	</center>
+</div>
+ </BODY>  </HTML>
+ 
+ 
+ 

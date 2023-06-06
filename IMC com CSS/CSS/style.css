@@ -1,0 +1,33 @@
+body{
+    background-size: cover;
+}
+#linha1 {
+   /* background-color: darkgreen;
+    height: 15px; */
+    border: 10px solid darkgreen; 
+    border-radius: 5px;
+}
+#linha2 {
+    border: 2px solid silver; 
+    border-radius: 5px; 
+}
+.titulo{
+    font-family: cursive;
+    color:darkgreen;
+    font-size: 30pt;
+    text-align: center;    
+}
+.texto{
+    font-family: cursive;
+    color:darkgreen;
+    font-size: 20pt;
+    text-align: center;  
+}
+#tudo{
+   text-align: center;
+   background-color: rgba(250,250,250,0.9);
+   max-width: 500px;                /* largura máxima de um elemento */
+   margin: auto;                   /* margem centralizada na horizontal  */
+   padding: 10px 30px 10px 30px;  /* topo, direita, abaixo, esquerda  */
+   border-radius: 30px;           /* definimos o quão arredondado irá ficar nosso box */
+}
